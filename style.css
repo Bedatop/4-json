@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    font-family: 'Roboto', sans-serif;
+    background-color: #edeef0;
+    min-height: 100%;
+    padding: 15px;
+    position: relative;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
